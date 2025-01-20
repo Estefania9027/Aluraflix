@@ -1,0 +1,55 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Node.js dependencies
+node_modules/
+.pnp/
+.pnp.js
+
+# Build output
+dist/
+build/
+
+# Cache
+.cache/
+.nyc_output/
+coverage/
+*.cache
+.vscode/
+
+# Temporary files
+tmp/
+temp/
+
+# Editor and system files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# IDE specific files
+.idea/
+*.iml
+
+# Git-specific
+.git/
+*.orig
+
+# Styled-components artifacts
+coverage/
+stylelintcache
+
+# Others
+public/*.js.map
+public/*.css.map
+public/*.asset-manifest.json
+public/*.LICENSE.txt
